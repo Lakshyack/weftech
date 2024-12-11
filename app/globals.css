@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+}
+body {
+    font-family: 'Playfair Display' sans-serif; /* पहले Playfair Display और फिर Cabinet Grotesk */
+}
+
+.Playfair{
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+}
+
+/* styles/gradient.css */
+.gradient-background {
+  background: linear-gradient(to bottom,  #ee419710, #ffffff); /* Pink with 4% opacity to Light Pink */
+  padding: 20px;
+  border-radius: 10px;
+}
+/* Default flex direction is row */
+.ItemCrd-LeftSec {
+  display: flex;
+  flex-direction: row;
+}
+.NavLinks-Col{
+  display: none;
+
+}
+.SeachBar{
+flex-grow: 1;
+
+}
+.FullService-Container{
+  gap: 70px;
+}
+
+.Line{
+  display: block;
+}
+
+/* Media query for screen widths less than 970px */
+@media (max-width: 970px) {
+  .ItemCrd-LeftSec {
+    flex-direction: column;
+  }
+  .Item-Previews{
+    flex-direction: row;
+  }
+  .Product-Thumbnails{
+    flex-direction: column;
+    
+  }
+  .NavLinks-Row{
+    display: none;
+  }
+  .NavLinks-Col{
+    display: flex;
+    flex-direction: column;
+    /* min-width: 467; */
+    max-width: 1030px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .NavLink-List{
+    min-width: 70px;
+  }
+  .favoris{
+    display: none;
+  }
+  .Inspirations{
+    display: none;
+  }
+  .FullService-Container{
+    gap: 10px;
+  }
+  .Line{
+    display: none;
+  }
+}
+
+@media (max-width: 595px) {
+  .NavLink-List{
+    width: 0px;
+  }
+  .NavLinks-Col1{
+    gap: 2px;
+  }
+}
+@media (max-width: 640px) {
+  .SeachBar{
+   flex-grow: 0;
+   margin-right: 10px;
+  }
+  .Panier{
+    display: none;
+  }
+  .SignUpAndSave{
+    flex-direction: column;
+  }
+ 
+}
