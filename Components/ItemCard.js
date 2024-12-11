@@ -15,13 +15,14 @@ export default function ItemCard() {
       <div className="ItemCrd-LeftSec flex justify-between gap-3">
         <div className="flex Product-Thumbnails justify-between bg-[#F8F6F4] rounded-lg pr-12">
           <div className="Item-Previews mt-3 ml-5 mr-0 flex flex-col gap-1">
-            <div style={{ maxHeight: "35px", minWidth: "35px" }} className="p-1 bg-white rounded-lg">
+            <div style={{ minHeight: "35px", minWidth: "35px" }} className="p-1 bg-white rounded-lg">
               {" "}
               <Image
                 className="bg-[#F8F6F4] rounded-lg"
-                style={{ maxHeight: "35px", minWidth: "35px" }}
+                style={{ minWidth: "35px" }}
                 src="/images/Table165cm.png"
                 alt="Table Image"
+                width={20} height={9}
               />
             </div>
             <Image
@@ -29,25 +30,29 @@ export default function ItemCard() {
               style={{ height: "45px", minWidth: "45px" }}
               src="/images/Table165fade.png"
               alt="Table Image"
+              width={20} height={10}
             />
             <Image
               className="bg-[#F8F6F4] rounded-lg"
               style={{ height: "45px", minWidth: "45px" }}
               src="/images/Table165fade.png"
               alt="Table Image"
+              width={20} height={10}
             />
             <Image
               className="bg-[#F8F6F4] rounded-lg"
               style={{ height: "45px", minWidth: "45px" }}
               src="/images/Table165fade.png"
               alt="Table Image"
+              width={20} height={10}
             />
           </div>
           <Image
-            className="bg-[#F8F6F4] p-8 rounded-lg"
+            className="bg-[#F8F6F4] flex items-center justify-center p-8 rounded-lg"
             src="/images/CheeseMachine.png"
             alt="Cheese Machine"
             style={{ height: "550px", minWidth: "520px" }}
+            width={200} height={100}
           />
         </div>
 
@@ -63,6 +68,7 @@ export default function ItemCard() {
                 style={{ width: "27px", height: "25px" }}
                 src="/images/Vector.png"
                 alt="L"
+                width={200} height={100}
               />
             </div>
 
@@ -87,6 +93,7 @@ export default function ItemCard() {
                     style={{ width: "27px", height: "25px" }}
                     src="/images/scaleImg.png"
                     alt="L"
+                    width={200} height={100}
                   />
                   <h1 style={{ fontSize: "20px", position: "relative" }}>
                     20
@@ -107,7 +114,8 @@ export default function ItemCard() {
                     className=""
                     style={{ width: "27px", height: "25px" }}
                     src="/images/lineOnCircle.png"
-                    alt=""
+                    alt="L"
+                    width={200} height={100}
                   />
                   <h1 style={{ fontSize: "20px", position: "relative" }}>
                     50

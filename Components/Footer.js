@@ -30,7 +30,7 @@ export default function Footer() {
       <div className="flex flex-col justify-between sm:flex-row gap-6">
         <div className="flex gap-10 flex-1">
           <div className="">
-            <Image src="/images/Logo.png" className="p-5" alt="L" />
+            <Image src="/images/Logo.png" width={200} height={100} className="p-5" alt="L" />
           </div>
           <div>
             <ul>
@@ -117,9 +117,9 @@ export default function Footer() {
                   }}>NOUS SUIVRE</h1></div>
             <div className="flex gap-1">
                 <div className="border border-[#F5E1EB] rounded-md"><Image  className="p-2" 
-                src="/images/Twitter.png" alt="L" style={{height:"33px"}} /></div>
-                <div className="border border-[#F5E1EB] rounded-md"><Image  className="p-2" src="/images/instagramLogo.png" alt="L" style={{height:"33px"}} /></div>
-                <div className="border border-[#F5E1EB] rounded-md"><Image  className="p-2" src="/images/linkedin-inLogo.png" alt="L" style={{height:"33px"}} /></div>
+                src="/images/Twitter.png" alt="L" width={30} height={15} style={{}} /></div>
+                <div className="border border-[#F5E1EB] rounded-md"><Image  className="p-2" src="/images/instagramLogo.png" alt="L" width={30} height={15} /></div>
+                <div className="border border-[#F5E1EB] rounded-md"><Image  className="p-2" src="/images/linkedin-inLogo.png" alt="L" width={30} height={15}/></div>
             </div>
         </div>
       </div>

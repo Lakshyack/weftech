@@ -38,6 +38,7 @@ export default function RelatedProducts() {
                       src="/images/vector.png"
                       alt={product.name}
                       className="w-4.5 h-4"
+                      width={20} height={10}
                     />
                     <h3 className="text-xs bg-white rounded-md pl-1 pr-1">{product.name}</h3>
                  
@@ -48,6 +49,7 @@ export default function RelatedProducts() {
                       src="/images/CardTable.png"
                       alt={product.name}
                       className="w-40 h-40"
+                      width={200} height={100}
                     />
                  </div>
                 </div>

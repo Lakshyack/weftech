@@ -25,13 +25,15 @@ export default function SignUpAndSave() {
       className="container w-full mt-10 bg-white mb-12 mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"
       style={{ height: "" }}
     >
-      <div className="SignUpAndSave flex">
+      <div className="SignUpAndSave flex gap-3">
         {/* Image Section */}
         <div className="flex justify-center items-center">
           <Image
             className="w-[95%]"
             src="/images/SignupBanner.png"
             alt="Signup Banner"
+            style={{width:"540px", height:"250px"}}
+            width={100} height={100}
           />
         </div>
 
@@ -65,6 +67,7 @@ export default function SignUpAndSave() {
                     src="/images/arrow-right.png"
                     className="h-4 w-4 align-middle"
                     alt="L"
+                    width={200} height={100}
                   />
                 </button>
               </div>

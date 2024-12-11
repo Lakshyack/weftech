@@ -34,7 +34,7 @@ export default function FullService() {
           >
             {/* First Item */}
             <li className="flex flex-1 flex-col items-center text-center relative gap-3">
-              <Image src="/images/Groupe_25.png" alt="Livraison & Reprise" />
+              <Image width={50} height={35} src="/images/Groupe_25.png" alt="Livraison & Reprise" />
               <h1>Livraison & Reprise</h1>
              <h3 className="text-xs text-gray-400">Selon vos besoins</h3>
             </li>
@@ -53,7 +53,7 @@ export default function FullService() {
 
             {/* Second Item */}
             <li className="flex flex-col items-center text-center gap-3 relative">
-              <Image src="/images/dish.png" alt="Nettoyage" />
+              <Image width={50} height={35} src="/images/dish.png" alt="Nettoyage" />
               <h1>Nettoyage</h1>
              <h3 className="text-xs text-gray-400">Selon vos besoins</h3>
             </li>
@@ -72,7 +72,7 @@ export default function FullService() {
 
             {/* Third Item */}
             <li className="flex flex-col items-center text-center relative gap-3">
-              <Image src="/images/Groupe_56.png" alt="Commande Illimitée" />
+              <Image width={50} height={35} src="/images/Groupe_56.png" alt="Commande Illimitée" />
               <h1>Commande Illimitée</h1>
              <h3 className="text-xs text-gray-400">Selon vos besoins</h3>
             </li>
@@ -90,7 +90,7 @@ export default function FullService() {
             ></li>
             {/* Fourth Item */}
             <li className="flex flex-col items-center text-center gap-3 relative">
-              <Image src="/images/Groupe_123.png" alt="Transport & Enlèvement" />
+              <Image width={50} height={35} src="/images/Groupe_123.png" alt="Transport & Enlèvement" />
               <h1>Transport & Enlèvement</h1>
              <h3 className="text-xs text-gray-400">Selon vos besoins</h3>
             </li>

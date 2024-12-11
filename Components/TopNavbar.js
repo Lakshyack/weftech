@@ -50,7 +50,8 @@ export default function TopNavbar() {
                 <Image
                   alt="Your Company"
                   src="/images/Logo.png"
-                  className="h-12 w-15"
+                  className=""
+                  width={130} height={90}
                 />
               </div>
               <div className="SeachBar ml-5">
@@ -81,7 +82,7 @@ export default function TopNavbar() {
                 type="button"
                 className="Inspirations relative pl-10 pr-5 flex items-center justify-center h-12 rounded-lg  text-black outline-none focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 "
               >
-                <Image className="" src="/images/Inspiration.png" alt="L"/>
+                <Image className="" width={10} height={10} src="/images/Inspiration.png" alt="L"/>
                 <span className="p-2">Inspirations</span>
                 {/* <Image className="bg-gray-400 p-1 rounded-lg" src="/images/24.png"></img> */}
               </button>
@@ -90,7 +91,7 @@ export default function TopNavbar() {
                 type="button"
                 className="favoris relative pr-6 flex items-center justify-center h-12 rounded-lg  text-black outline-none focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 "
               >
-                <Image className="" src="/images/heart.png" alt="L"/>
+                <Image className="" width={15} height={10} src="/images/heart.png" alt="L"/>
                 <span className="p-2">Mes favoris</span>
                <div className="bg-gray-400 pr-1 text-xs pl-1 rounded-lg">
                 24
@@ -103,7 +104,7 @@ export default function TopNavbar() {
                 type="button"
                 className="Panier relative p-4 flex items-center justify-center h-12 rounded-lg bg-[#0093D0] text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 "
               >
-                <Image className="" src="/images/Icon.svg"alt="L" />
+                <Image className="" width={15} height={10} src="/images/Icon.svg"alt="L" />
                 <span className="p-2">Panier</span>
               </button>
 
@@ -172,7 +173,7 @@ export default function TopNavbar() {
                   "block rounded-md px-3 py-2 text-base font-medium flex gap-2"
                 )}
               >
-                <Image className="" src={item.src} alt="L"/>
+                <Image className="" width={20} height={10} src={item.src} alt="L"/>
                 {item.name}
               </DisclosureButton>
             ))}

@@ -104,6 +104,7 @@ export default function ProductGallery() {
                       src="/images/vector.png"
                       alt={product.name}
                       className="w-4.5 h-4"
+                      width={20} height={10}
                     />
                     <h3 className="text-xs bg-white rounded-md pl-1 pr-1">
                       {product.name}
@@ -114,6 +115,7 @@ export default function ProductGallery() {
                       src="/images/CardTable.png"
                       alt={product.name}
                       className="w-40 h-40"
+                      width={200} height={100}
                     />
                   </div>
                 </div>
@@ -154,13 +156,13 @@ export default function ProductGallery() {
           onClick={prevSlide}
           className="absolute left-0 top-1/3 mt-3 transform -translate-y-1/2 translate-x-[-13px] z-10 bg-[#5CD2DD]  text-white font-bold py-2 px-2 "
         >
-          <Image src="/images/arrow-left.png" alt="L" />
+          <Image src="/images/arrow-left.png" alt="L" width={20} height={10} />
         </button>
         <button
           onClick={nextSlide}
           className="absolute right-0 top-1/3 mt-3 transform -translate-y-1/2 translate-x-3 z-10 bg-[#5CD2DD]  text-white font-bold py-2 px-2"
         >
-          <Image src="/images/arrow-right.png" alt="L" />
+          <Image src="/images/arrow-right.png" alt="L" width={20} height={10} />
         </button>
       </div>
     </div>
